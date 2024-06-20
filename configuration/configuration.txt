@@ -6,7 +6,7 @@
 Weblog title: @lritter
 Weblog description: This is a weblog.
 Author: Your Name
-Canonical domain: lritter.io
+;; Canonical domain: lritter.io
 Landing page: /
 Landing page template: Landing Page Template
 
