@@ -34,7 +34,7 @@ header nav li {
 header nav li a {
   display: block;
   text-decoration: none;
-  margin-right: 1em;
+  margin-left: 1em;
 }
 
 h1,
@@ -73,16 +73,11 @@ footer .statuslol_content {
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
+  font-size: smaller;
 }
 
 footer .statuslol_content p {
   margin: 1em;
-}
-
-footer {
-  margin-top: 5em;
-  margin-left: 0;
-  font-size: 90%;
 }
 
 a:link {
