@@ -8,7 +8,7 @@ Weblog description: This is a weblog.
 Author: Your Name
 ;; Canonical domain: lritter.io
 Landing page: /
-Landing page template: Landing Page Template
+;; Landing page template: Landing Page Template
 
 
 ;; General config stuff
