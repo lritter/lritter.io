@@ -15,6 +15,12 @@ body {
   background: var(--background);
 }
 
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 header nav ul {
   list-style-type: none;
   margin: 0;
@@ -57,10 +63,26 @@ header {
   margin-top: 4em;
 }
 
-footer p {
+footer .statuslol {
+  display: flex;
+  align-items: center;
+}
+
+footer .statuslol_content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer .statuslol_content p {
+  margin: 1em;
+}
+
+footer {
   margin-top: 5em;
+  margin-left: 0;
   font-size: 90%;
-  text-align: center;
 }
 
 a:link {
