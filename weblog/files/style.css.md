@@ -159,6 +159,11 @@ th {
   border: 1px solid var(--accent);
 }
 
+cite p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .weblog-title a {
   text-decoration: none;
   color: var(--foreground);
