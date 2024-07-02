@@ -21,13 +21,13 @@ Here are some of my favorite projects from the ancient past.
 A system for authoring and viewing interactive cutaway illustrations of complex 3D models using conventions of traditional scientific and technical illustration.
 
 
-<cite>
-<a href="http://vis.berkeley.edu/papers/cutaways/">Interactive Cutaway Illustrations of Complex 3D Models</a>
+<div class="cite">
+  <a href="http://vis.berkeley.edu/papers/cutaways/">Interactive Cutaway Illustrations of Complex 3D Models</a>
 
-Wilmot Li, Lincoln Ritter, Maneesh Agrawala, Brian Curless, David Salesin
+  Wilmot Li, Lincoln Ritter, Maneesh Agrawala, Brian Curless, David Salesin
 
-SIGGRAPH 2007, August 2007
-</cite>
+  SIGGRAPH 2007, August 2007
+</div>
 
 ### Painting with Texture
 <img src="/media/projects/tree-result-thumbnail.png" style="height: 140.4px;"/>
@@ -35,13 +35,13 @@ SIGGRAPH 2007, August 2007
 An interactive texture painting system that allows the user to author digital
 images by painting with a palette of input textures.
 
-<cite>
+<div class="cite">
   <a href="http://grail.cs.washington.edu/projects/painting-with-texture/">Painting with Texture</a>
 
   Lincoln Ritter, Wilmot Li, Maneesh Agrawala, Brian Curless, and David Salesin
 
   17th Eurographics Symposium on Rendering, Nicosa, Cyprus, June 26th-28th, 2006
-</cite>
+</div>
 
 
 ### Loud Networks
@@ -54,10 +54,10 @@ reliable communication at distances of up to 15 feet in noisy environments at
 160 bits per second. We were able to maintain 50% medium usage under high load
 using our novel congestion control mechanism.
 
-<cite>
+<div class="cite">
   Loud Networks
 
   J Carlson, J Froehlich, L Ritter
 
   Fall, 2005
-</cite>
+</div>

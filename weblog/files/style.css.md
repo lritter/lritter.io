@@ -159,7 +159,11 @@ th {
   border: 1px solid var(--accent);
 }
 
-cite p {
+cite, .cite {
+  font-style: italic;
+}
+
+.cite p, cite p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
