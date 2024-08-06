@@ -14,5 +14,5 @@ jobs:
         env:
           ADDRESS: lritter
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
-      - id: post_now
-        run: ./script/build-now-payload.sh
+      - id: deploy-now-page
+        run: ./script/deploy-now.sh
