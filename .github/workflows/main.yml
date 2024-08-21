@@ -15,4 +15,4 @@ jobs:
           ADDRESS: lritter
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
       - id: deploy-now-page
-        run: ./script/deploy-now.sh
+        run: WEBLOG_API_KEY=$WEBLOG_API_KEY ./script/deploy-now.sh
