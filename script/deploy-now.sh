@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OMGADDRESS=lritter
+export OMGADDRESS=lritter
 NOWFILE=./now/now.md
 
 changed_files=$(git diff --name-only HEAD^..HEAD | grep "${NOWFILE#./}")
