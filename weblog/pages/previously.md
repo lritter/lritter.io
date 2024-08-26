@@ -26,4 +26,8 @@ Like [now](https://lritter.io/now) but before...
 
   I really enjoy the "Silo" series as well as his short story collection, Machine Learning, and this didn't dissapoint. I'm eager to get more into this world.
 
+- [Generation Ship](https://www.michaelmammay.com/books/generation-ship/) by [Michael Mammay](https://www.michaelmammay.com)
+
+  A bit different than the Planet/Space/Coloney-side series. Seems like not everyone liked the departure but I was into it.
+
   
