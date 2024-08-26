@@ -1,6 +1,7 @@
 ### What I’m reading
 
 - [On Writing](https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html) by [Stephen King](https://stephenking.com) {book}
+- [The Mercy of Gods](https://www.jamessacorey.com/books/the-mercy-of-gods/) by [James S.A. Corey](https://www.jamessacorey.com)
 - [Cræft](https://alexlanglands.wordpress.com/craeft/) by [Alexander Langlands](https://alexlanglands.wordpress.com)
 
 ### What I’m watching
