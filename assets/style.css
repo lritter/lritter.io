@@ -1,3 +1,8 @@
+@font-face {
+  font-family: DepartureMono-Regular;
+  src: url(https://raw.githubusercontent.com/lritter/lritter.io/main/assets/DepartureMono-Regular.otf);
+}
+
 :root {
   --enamel: #eeeeee;
   --white: #ffffff;
@@ -13,12 +18,8 @@
   box-sizing: border-box;
 }
 
-font-face {
-  font-family: DepartureMono-Regular;
-  src: url(https://raw.githubusercontent.com/lritter/lritter.io/main/assets/DepartureMono-Regular.otf);
-}
-
 body {
+  font-family: Departure Mono,monospace;
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
