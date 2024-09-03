@@ -8,7 +8,7 @@ Title: Landing Page Template
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {feeds}
-<link rel="stylesheet" href="https://raw.githubusercontent.com/lritter/lritter.io/main/assets/style.css"/>
+<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/style.css"/>
 </head>
 <body>
 
