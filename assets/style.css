@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: Departure Mono,monospace;
+  font-family: DepartureMono-Regular,monospace;
   font-size: 120%;
   color: var(--foreground);
   background: var(--background);
@@ -64,7 +64,7 @@ li {
 header,
 main,
 footer {
-  max-width: 60em;
+  max-width: 40em;
   margin: 2em auto;
   padding: 0 1em;
 }
