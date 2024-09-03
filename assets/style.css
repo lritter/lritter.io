@@ -3,10 +3,24 @@ Content-Type: text/css
 Title: Stylesheet
 Location: /style.css
 
-:root {}
+:root {
+  --enamel: #eeeeee;
+  --white: #ffffff;
+  --carbon: #222222;
+  --dark: #444444;
+  --foreground: var(--dark);
+  --background: var(--enamel);
+  --code-background: var(--white);
+  color: var(--foreground);
+}
 
 * {
   box-sizing: border-box;
+}
+
+font-face {
+  font-family: DepartureMono-Regular;
+  src: url(https://raw.githubusercontent.com/lritter/lritter.io/main/assets/DepartureMono-Regular.otf);
 }
 
 body {
