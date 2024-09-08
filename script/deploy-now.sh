@@ -6,8 +6,8 @@ changed_files=$(git diff --name-only HEAD^..HEAD | grep "${NOWFILE#./}")
 changed_files="${changed_files#"${changed_files%%[![:space:]]*}"}"
 changed_files="${changed_files%"${changed_files##*[![:space:]]}"}"
 
-if [[ ${COMMIT_MESSAGE} =~ "DEPLOY" ]]; then
-  # NO-OP
+if [[ ${COMMIT_MESSAGE} =~ DEPLOY=.*now.* ]]; then
+  echo "Forcing deploy"
 elif ! [[ ${changed_files} =~ ${NOWFILE} ]]; then
 	echo -e "\n*** No changes to ${NOWFILE} detected.\n"
   exit 0
