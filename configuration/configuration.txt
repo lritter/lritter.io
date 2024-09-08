@@ -15,7 +15,7 @@ Landing page template: Landing Page Template
 ;; --------------------
 
 Separator:  ·
-Navigation: about, <a href="/">Home</a>
+Navigation: <a href="/">Home</a>, <a href="/about">About</a>
 
 Files path: /files/
 

@@ -10,6 +10,14 @@ Like [now](https://lritter.io/now) but before...
 
 ### What I’ve read
 
+- [On Writing](https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html) by [Stephen King](https://stephenking.com)
+
+  Like most books, I listened to this one. I absolutely loved listening to Stephen King read it.
+
+- [The Mercy of Gods](https://www.jamessacorey.com/books/the-mercy-of-gods/) by [James S.A. Corey](https://www.jamessacorey.com)
+
+  Excited by this new series.
+
 - [Service Mode](https://adriantchaikovsky.com/stand-alone-novels.html#anchor6) by [Adrian Tchaikovsky](https://adriantchaikovsky.com/) {book}
 
   I like this one. It's a more cerebral Murder Bot.
