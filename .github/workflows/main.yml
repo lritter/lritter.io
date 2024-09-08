@@ -15,4 +15,9 @@ jobs:
           ADDRESS: lritter
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
       - id: deploy-now-page
-        run: WEBLOG_API_KEY=$WEBLOG_API_KEY ./script/deploy-now.sh
+        env:
+          ADDRESS: lritter
+          WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: ./script/deploy-now.sh
+        
