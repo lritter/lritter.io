@@ -7,7 +7,7 @@ changed_files="${changed_files#"${changed_files%%[![:space:]]*}"}"
 changed_files="${changed_files%"${changed_files##*[![:space:]]}"}"
 
 if [ ${COMMIT_MESSAGE} =~ "DEPLOY" ]; then
-  ; # NO-OP
+  # NO-OP
 elif [ -z $changed_files ]; then
 	echo -e "\n*** No changes to ${NOWFILE} detected.\n"
   exit 0
