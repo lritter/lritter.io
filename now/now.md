@@ -16,6 +16,7 @@
 
 ---
 
+[Previously...](https://lritter.io/previously)
+
 {last-updated}
 
-[More @lritter](https://lritter.io)
