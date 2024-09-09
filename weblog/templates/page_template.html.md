@@ -22,7 +22,6 @@ Title: Page Template
 	</header>
 
 	<main>
-
 		<article>
 			{body}
 			<aside class="post-info">
@@ -32,13 +31,6 @@ Title: Page Template
 				{tags}
 			</aside>
 		</article>
-
-		<hr>
-
-		<h2>Recent posts</h2>
-
-		{recent-posts}
-
 	</main>
 
 	<footer>
