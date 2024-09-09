@@ -1,6 +1,5 @@
 ### What I’m reading
 
-
 - [Cræft](https://alexlanglands.wordpress.com/craeft/) by [Alexander Langlands](https://alexlanglands.wordpress.com)
 
 ### What I’m watching
