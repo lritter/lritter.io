@@ -40,6 +40,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Never Let Me Go_, Kazuo Ishiguro
 
+  I liked this but the few reviews I read described this as "genre bending" and I have to say that despite there being some speculative fiction elements, I don't think that's enough to make it bend any genres.
+
 ### June, 2024
 
 - _[Generation Ship](https://www.michaelmammay.com/books/generation-ship/)_ by [Michael Mammay](https://www.michaelmammay.com)
@@ -52,15 +54,19 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _The Terraformers_ by Annalee Newitz
 
+  It's fun to think about generation-spanning stories like this one. I wish I had a better imagination for how cultures might grow and evolve when oriented around specific values or goals.
+
 ### February, 2024
 
-- _City of Last Chances_ by Adrian Tchaikovsky
-
 - _Wayward: Wanderers, Book 2_ by Chuck Wendig
+
+  I didn't like this quite as much as the first one but it was well worth the time.
 
 ### January, 2024
 
 - _Dogs of War: Dogs of War, Book 1_ by Adrian Tchaikovsky
+
+  This was a fun read.
 
 ### December, 2023
 
@@ -73,8 +79,6 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 - _Upgrade: A Novel_ by Blake Crouch
 
 ### October, 2023
-
-- _Fight Night_ by Miriam Toews
 
 - _None of This Is True: A Novel_ by Lisa Jewell
 
@@ -92,9 +96,15 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Demon Copperhead: A Novel_ by Barbara Kingsolver
 
+  One of my favorites, and certainly since _The Poisonwood Bible_.
+
 ### July, 2023
 
+Clearly I went on a bit of Hugh Howey kick this month...
+
 - _Machine Learning: New and Collected Stories_ by Hugh Howey
+
+  I really liked some of these shorts.
 
 - _Dust: The Silo Saga, Book 3_ by Hugh Howey
 
@@ -132,6 +142,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Roadkill_ by Dennis E. Taylor
 
+  Taylor has such a great voice!  
+
 ### January, 2023
 
 - _Earthside: Quantum Earth, Book 2_ by Dennis E. Taylor
@@ -147,8 +159,6 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 ### October, 2022
 
 - _Shadow Captain_ by Alastair Reynolds
-
-- _The Real History of Secret Societies_ by Professor Richard B. Spence, The Great Courses
 
 ### September, 2022
 
@@ -166,13 +176,15 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Library at Mount Char_ by Scott Hawkins
 
+  What is it like to become a god?
+
 ### June, 2022
 
 - _Termination Shock: A Novel_ by Neal Stephenson
 
 ### April, 2022
 
-- _How High We Go in the Dark: A Novel_ by Sequoia Nagamatsu
+Did I really not read anything?
 
 ### March, 2022
 
@@ -226,6 +238,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Random Family: Love, Drugs, Trouble, and Coming of Age in the Bronx_ by Adrian Nicole LeBlanc
 
+  This should be required reading.
+
 - _All Our Wrong Todays: A Novel_ by Elan Mastai
 
 - _Second Foundation_ by Isaac Asimov
@@ -248,6 +262,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Mythos_ by Stephen Fry
 
+  I will listen to anything Stephen Fry reads, but also he does such a great job of retelling these stories with charm and wit.
+
 - _The Hidden Girl and Other Stories_ by Ken Liu
 
 ### November, 2020
@@ -264,6 +280,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _The Ministry for the Future: A Novel_ by Kim Stanley Robinson
 
+  I love KSR and have been a fan since I read _Red Mars_ as a kid, but this really feels like a policy document rather than a novel. Interesting though.
+
 - _Heaven's River: Bobiverse, Book 4_ by Dennis E. Taylor
 
 ### September, 2020
@@ -279,6 +297,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 ### July, 2020
 
 - _The City We Became_ by N. K. Jemisin
+
+  As an adopted New Yorker, this really resonated with me.
 
 ### May, 2020
 
@@ -306,7 +326,9 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Born a Crime: Stories from a South African Childhood_ by Trevor Noah
 
-- _The Underground Railroad (Television Tie-in): A Novel_ by Colson Whitehead
+  You have to listen to the audiobook.
+
+- _The Underground Railroad: A Novel_ by Colson Whitehead
 
 ### December, 2019
 
@@ -326,9 +348,11 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 ### October, 2019
 
-- _The Water Dancer (Oprah’s Book Club): A Novel_ by Ta-Nehisi Coates
+- _The Water Dancer: A Novel_ by Ta-Nehisi Coates
 
 - _The Poisonwood Bible_ by Barbara Kingsolver
+
+  One of my favorite books ever.
 
 ### September, 2019
 
@@ -386,6 +410,8 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Sherlock Holmes: The Definitive Collection_ by Arthur Conan Doyle, Stephen Fry - introductions
 
+  I will admit I did not finish all of them this month....
+
 - _The Last Colony: Old Man's War, Book 3_ by John Scalzi
 
 - _The Ghost Brigades: Old Man's War, Book 2_ by John Scalzi
@@ -412,8 +438,6 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Redshirts: A Novel with Three Codas_ by John Scalzi
 
-- _Folsom Untold: The Strange True Story of Johnny Cash's Greatest Album: An Audible Original Drama_ by Danny Robins
-
 ### January, 2019
 
 - _Washington Black: A Novel_ by Esi Edugyan
@@ -426,11 +450,11 @@ I've tried to keep track of what I've read but it gets a little fuzzy the furthe
 
 - _Infinite_ by Jeremy Robinson
 
-- _Dark Matter (Movie Tie-In): A Novel_ by Blake Crouch
+- _Dark Matter_ by Blake Crouch
 
 - _A Knight of the Seven Kingdoms: A Song of Ice and Fire_ by George R. R. Martin
 
-- _Fire & Blood (HBO Tie-in Edition): 300 Years Before A Game of Thrones_ by George R. R. Martin
+- _Fire & Blood: 300 Years Before A Game of Thrones_ by George R. R. Martin
 
 ### November, 2018
 
