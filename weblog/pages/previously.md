@@ -12,6 +12,12 @@ Like [now](https://lritter.io/now) but before...
 
 I've tried to keep track of what I've read but it gets a little fuzzy the further you go back... I know that I've read other stuff but I'm not sure exactly when.
 
+### September, 2024
+
+- _[The Heaven & Earth Grocery Store](https://www.jamesmcbride.com/heaven-earth/)_ by [James McBride](https://www.jamesmcbride.com)
+
+  I loved how this came together at the end. The whole thing reminded me of "A Gentleman in Moscow" in a way I can't quite put my finger on.
+
 ### August, 2024
 
 - _[The Mercy of Gods](https://www.jamessacorey.com/books/the-mercy-of-gods/)_ by [James S.A. Corey](https://www.jamessacorey.com)

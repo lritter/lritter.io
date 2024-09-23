@@ -1,7 +1,6 @@
 ### What I’m reading
 
 - [Cræft](https://alexlanglands.wordpress.com/craeft/) by [Alexander Langlands](https://alexlanglands.wordpress.com)
-- _[The Heaven & Earth Grocery Store](https://www.jamesmcbride.com/heaven-earth/)_ by [James McBride](https://www.jamesmcbride.com)
 - _[Wonderbook: The Illustrated Guide to Creating Imaginitive Fiction](https://wonderbooknow.com)_ by Jeff Vandermeer
 
 ### What I’m watching
