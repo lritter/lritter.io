@@ -13,7 +13,6 @@ Title: Page Template
 	<meta name="fediverse:creator" content="@lritter@social.lol" />
 	{feeds}
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/style.css"/>
-	<a rel="me" href="https://social.lol/@lritter">Mastodon</a>
 </head>
 
 <body>
@@ -36,6 +35,7 @@ Title: Page Template
 	</main>
 
 	<footer>
+	  <a rel="me" href="https://social.lol/@lritter" style="visibility: hidden;">Mastodon</a>
 	</footer>
 
 </body>
