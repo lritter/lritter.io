@@ -10,6 +10,7 @@ Title: Landing Page Template
 <meta name="fediverse:creator" content="@lritter@social.lol" />
 {feeds}
 <link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/style.css"/>
+<a rel="me" href="https://social.lol/@lritter">Mastodon</a>
 </head>
 <body>
 
