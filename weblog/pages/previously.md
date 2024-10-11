@@ -12,6 +12,16 @@ Like [now](https://lritter.io/now) but before...
 
 I've tried to keep track of what I've read but it gets a little fuzzy the further you go back... I know that I've read other stuff but I'm not sure exactly when.
 
+### October, 2024
+
+- _[Darkside: A Novel: Planetside, Book 4](https://www.michaelmammay.com/books/darkside/)_ by [Michael Mammay](https://www.michaelmammay.com)
+  
+  I am really into this series. I like the military sci-fi subgenre and I dig the "private eye" aspect of this series.
+
+- _[Not til We are Lost: Bobiverse, Book 5](https://www.goodreads.com/book/show/159116833-not-till-we-are-lost)_ by [Dennis E. Taylor](http://dennisetaylor.org)
+  
+  Still enjoying this series. Seems like this one is setting up pieces for future books.
+
 ### September, 2024
 
 - _[The Heaven & Earth Grocery Store](https://www.jamesmcbride.com/heaven-earth/)_ by [James McBride](https://www.jamesmcbride.com)
