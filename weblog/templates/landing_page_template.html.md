@@ -11,7 +11,7 @@ Title: Landing Page Template
 
 	{feeds}
 
-	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/assets/nav.css" id="navigation">
+	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/nav.css" id="navigation">
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-light.min.css" media="" id="light-theme">
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-dark.min.css" media="none" id="dark-theme">
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono.min.css">
