@@ -4,12 +4,17 @@ Title: Landing Page Template
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>{weblog-title}{separator}{post-title}</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="fediverse:creator" content="@lritter@social.lol" />
-{feeds}
-<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/style.css"/>
+	<title>{weblog-title}{separator}{post-title}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="fediverse:creator" content="@lritter@social.lol" />
+
+	{feeds}
+
+	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-light.min.css" media="" id="light-theme">
+	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-dark.min.css" media="none" id="dark-theme">
+	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono.min.css">
+	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-color.min.css">
 </head>
 <body>
 
