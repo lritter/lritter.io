@@ -10,7 +10,23 @@ Like [now](https://lritter.io/now) but before...
 
 ## What I’ve read
 
-I've tried to keep track of what I've read but it gets a little fuzzy the further you go back... I know that I've read other stuff but I'm not sure exactly when.
+I've tried to keep track of what I've read but it gets a little fuzzy the
+further you go back... I know that I've read other stuff but I'm not sure
+exactly when.
+
+### October, 2024
+
+- _[Some Desparate Glory](https://emilytesh.net/some-desperate-glory/)_ by [Emily Test](https://emilytesh.net)
+  
+- _[Trust](https://www.hernandiaz.net/trust-novel)_ by [Hernan Diaz](https://www.hernandiaz.net)
+  
+  I enjoyed this book. It is, of course, beautifully and compellingly written.
+  However, the fact that this novel won a Pulitzer is confusing to me. While I
+  understand the shifting narrator and the emphasis on the trustworthiness of
+  the narrative, this didn't seem particularly novel or executed in a
+  particularly novel way. I'm sure I don't understand the reasons that a work of
+  fiction might win a Pulitzer, but this isn't the first time I've been confused
+  about why something wins. But, as I said, I enjoyed reading it.
 
 ### October, 2024
 
