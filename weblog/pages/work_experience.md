@@ -130,11 +130,9 @@ A system for authoring and viewing interactive cutaway illustrations of complex 
 <blockqoute>
   <a href="http://vis.berkeley.edu/papers/cutaways/">Interactive Cutaway Illustrations of Complex 3D Models</a>
   <br/>
-  <cite>
-    <em>Wilmot Li, Lincoln Ritter, Maneesh Agrawala, Brian Curless, David Salesin</em>
-    <br/>
-    SIGGRAPH 2007, August 2007
-  </cite>
+  <em>Wilmot Li, Lincoln Ritter, Maneesh Agrawala, Brian Curless, David Salesin</em>
+  <br/>
+  SIGGRAPH 2007, August 2007
 </blockquote>
 
 ## Painting with Texture
@@ -145,11 +143,9 @@ images by painting with a palette of input textures.
 <blockqoute>
   <a href="http://grail.cs.washington.edu/projects/painting-with-texture/">Painting with Texture</a>
   <br/>
-  <cite>
-    <em>Lincoln Ritter, Wilmot Li, Maneesh Agrawala, Brian Curless, and David Salesin</em>
-    <br/>
-    17th Eurographics Symposium on Rendering, Nicosa, Cyprus, June 26th-28th, 2006
-  </cite>
+  <em>Lincoln Ritter, Wilmot Li, Maneesh Agrawala, Brian Curless, and David Salesin</em>
+  <br/>
+  17th Eurographics Symposium on Rendering, Nicosa, Cyprus, June 26th-28th, 2006
 </blockquote>
 
 ## Driving Data Democracy @ Animoto, Looker Meetup, 2015
