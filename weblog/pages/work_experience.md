@@ -7,7 +7,8 @@ Title: My Work Experience
 # Work Experience
 
 I enjoy building useful tools to solve real problems, I love discovering
-creative solutions, and I think continuous learning is a must.
+creative solutions, and I think continuous learning is a must. I have a MS in
+Computer Science and nearly 20 years of experience.
 
 ## Principal Engineer, FireHydrant, 2019-2024
 
