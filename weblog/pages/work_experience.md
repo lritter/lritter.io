@@ -13,7 +13,7 @@ Computer Science and nearly 20 years of experience.
 ## Principal Engineer, FireHydrant, 2019-2024
 
 I was the second engineer hired at FireHydrant. The FireHydrant web application
-has become mission-critical to many organizations such as Shipt, Avalara, Asana,
+has become mission-critical to organizations such as Shipt, Avalara, Asana,
 CircleCI, and many more. I was involved in the design and building of the
 application from nearly day one. Of particular note, we built a high-volume,
 low-latency on-call and paging system, robust incident management and
