@@ -1,15 +1,14 @@
 ### What I’m reading
 
-- [Cræft](https://alexlanglands.wordpress.com/craeft/) by [Alexander Langlands](https://alexlanglands.wordpress.com)
-- _[Wonderbook: The Illustrated Guide to Creating Imaginitive Fiction](https://wonderbooknow.com)_ by Jeff Vandermeer
+- [The Stand](https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Stephen King](https://stephenking.com)
 
 ### What I’m watching
 
-- Nothing really at the moment...
+- Slowly working through Silo, season 2.
 
 ### What I’m making
 
-- I'm spending a lot of time writing. Mostly fiction and memoir-type stuff.
+- I'm doing a lot of 3D printing at the moment.
 - Working every day on learning Spanish.
 
 ### What I’m enjoying

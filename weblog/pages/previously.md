@@ -14,6 +14,13 @@ I've tried to keep track of what I've read but it gets a little fuzzy the
 further you go back... I know that I've read other stuff but I'm not sure
 exactly when.
 
+### November, 2024
+
+#### Abandoned
+
+- [Cræft](https://alexlanglands.wordpress.com/craeft/) by [Alexander Langlands](https://alexlanglands.wordpress.com)
+- _[Wonderbook: The Illustrated Guide to Creating Imaginitive Fiction](https://wonderbooknow.com)_ by Jeff Vandermeer
+
 ### October, 2024
 
 - _[Some Desparate Glory](https://emilytesh.net/some-desperate-glory/)_ by [Emily Test](https://emilytesh.net)
