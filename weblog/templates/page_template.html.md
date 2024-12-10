@@ -19,7 +19,6 @@ Title: Page Template
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-dark.min.css" media="none" id="dark-theme">
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono.min.css">
 	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/mono-color.min.css">
-	<link rel="stylesheet" href="https://raw.githack.com/lritter/lritter.io/main/assets/printed.css">
 </head>
 
 <body>
