@@ -1,6 +1,6 @@
 ### What I’m reading
 
-- [The Stand](https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Stephen King](https://stephenking.com)
+- [Say Nothing]([https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Patrick Radden Keefe](https://www.patrickraddenkeefe.com](https://www.penguinrandomhouse.com/books/90837/say-nothing-by-patrick-radden-keefe/))
 
 ### What I’m watching
 

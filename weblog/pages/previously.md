@@ -14,6 +14,14 @@ I've tried to keep track of what I've read but it gets a little fuzzy the
 further you go back... I know that I've read other stuff but I'm not sure
 exactly when.
 
+### January, 2025
+
+- [The Stand](https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Stephen King](https://stephenking.com)
+  
+  I had fun with this but I came away with two things: I think this could use
+  some serious editing - there are whole characters that don't contribute much;
+  I don't feel I came away understanding what this story is actually _about_.
+
 ### November, 2024
 
 #### Abandoned
