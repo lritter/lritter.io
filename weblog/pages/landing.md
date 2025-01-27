@@ -5,4 +5,6 @@ Location: /
 Title: Home of @lritter (lincoln ritter)
 ---
 
+{profile}
+
 {now}

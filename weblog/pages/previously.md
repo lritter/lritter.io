@@ -14,6 +14,12 @@ I've tried to keep track of what I've read but it gets a little fuzzy the
 further you go back... I know that I've read other stuff but I'm not sure
 exactly when.
 
+### February, 2025
+
+- [Say Nothing]([https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Patrick Radden Keefe](https://www.patrickraddenkeefe.com](https://www.penguinrandomhouse.com/books/90837/say-nothing-by-patrick-radden-keefe/))
+   
+   I loved this book. The depth of reporting and the story were so well melded.
+
 ### January, 2025
 
 - [The Stand](https://stephenking.com/works/novel/stand-the-complete-uncut-edition.html) by [Stephen King](https://stephenking.com)
