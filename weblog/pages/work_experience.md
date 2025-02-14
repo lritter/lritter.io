@@ -6,127 +6,165 @@ Title: My Work Experience
 
 # Work Experience
 
-I enjoy building useful tools to solve real problems, I love discovering
-creative solutions, and I think continuous learning is a must. I have a MS in
-Computer Science and nearly 20 years of experience.
+I thrive on building useful tools that solve real problems, discovering creative
+solutions, and embracing continuous learning. With an MS in Computer Science and
+over 20 years of experience, I've had the opportunity to work on everything from
+crisis management platforms to video creation tools to computational art
+systems.
 
 ## Principal Engineer, FireHydrant, 2019-2024
 
-I was the second engineer hired at FireHydrant. The FireHydrant web application
-has become mission-critical to organizations such as Shipt, Avalara, Asana,
-CircleCI, and many more. I was involved in the design and building of the
-application from nearly day one. Of particular note, we built a high-volume,
-low-latency on-call and paging system, robust incident management and
-retrospective tools, and deep integrations with dozens of third-party service
-providers such as Jira, Slack, MS Teams, Data Dog, and Zoom.
+As the second engineer at FireHydrant, I helped build a platform that has become
+essential to incident management at companies like Shipt, Avalara, Asana, and
+CircleCI. I played a key role in architectural decisions and implementation from
+the earliest days through our growth to an enterprise-scale platform. Some
+highlights include:
+
+- Architecting a high-volume, low-latency incident management system that
+  handles thousands of time-sensitive alerts while maintaining sub-second
+  response times
+- Building a sophisticated on-call and paging platform that integrates with
+  multiple telephony providers and messaging systems to ensure reliable
+  emergency notifications
+- Designing and implementing robust retrospective tools that help teams analyze
+  incident patterns and automate the creation of follow-up tasks
+- Creating deep integrations with enterprise platforms like Jira, Slack, MS
+  Teams, DataDog, and Zoom, enabling seamless incident coordination across tools
+- Scaling our systems to handle concurrent incidents across multiple teams while
+  maintaining data consistency and real-time updates
+- Establishing engineering best practices and mentoring new team members as we
+  grew from a startup to an enterprise-ready organization
 
 ## Animoto, 2010-2019
 
 ### Director of Engineering, 2014-2019
 
-I managed the backend, data engineering team, and analytics teams, as well as a
-number of project-oriented cross-functional teams. I made hiring decisions,
-participated in and guided design and design review, provided mentoring, and
-advised executives on technical aspects of the business.
+From managing backend infrastructure to leading data engineering initiatives, I
+helped shape Animoto's technical direction during a period of significant
+growth. I led several cross-functional teams while:
+
+- Building and mentoring high-performing engineering teams across backend, data
+  engineering, and analytics
+- Driving technical strategy and architecture decisions that enabled rapid
+  scaling
+- Staying hands on, regularly shipping code in our Ruby, Go, and JS (Node)
+  codebases
+- Championing data democratization and transparent decision-making processes
+- Advising executives on technical feasibility and strategic opportunities
 
 ### Interim Head of Engineering, Animoto, 2017
 
-I lead the Engineering team, comprising 25 engineers in frontend, backend, data
-engineering, analytics, and rendering. While a search was conducted for a new
-VP, I participated in all aspects of the product development lifecycle,
-budgeting, strategic planning and HR-related tasks.
+I stepped up to lead our 25-person engineering organization during a critical
+transition period. Beyond keeping our teams running smoothly, I:
+
+- Managed all aspects of our engineering organization, from frontend to, to
+  mobile, to rendering systems
+- Balanced immediate technical needs with long-term strategic planning
+- Maintained team momentum while participating in executive hiring
 
 ### Software & Lead Engineer, 2010-2014
 
-During a period of high traffic growth, I grew and sustained a 6 to 7 member
-engineering team. In addition to creating and maintaining Animoto's partner
-integration API, during this time I executed Animoto's transition to a service
-oriented architecture. My team refactored and rebuilt several legacy components
-enabling higher development velocity and key user-facing features. My team was
-also on the leading edge of many best practices: test driven development,
-continuous integration, and data-driven agile processes.
+During a period of explosive growth, I led a team that modernized Animoto's
+architecture and development practices. We:
+
+- Executed Animoto's transition to a service-oriented architecture (hosted on
+  AWS)
+- Built and maintained Animoto's partner integration API
+- Established engineering best practices including test-driven development and
+  continuous integration
+- Implemented data-driven agile processes that significantly improved our
+  development velocity
 
 ## Instructor, New York Code and Design Academy, 2016-2018
 
-I developed curriculum and performed classroom instruction, teaching adult
-students the fundamentals of web development using Ruby and Javascript. 
+While maintaining my full-time role at Animoto, I developed curriculum and
+taught web development fundamentals to adult career-changers and recent
+immigrants. I created hands-on projects using Ruby and JavaScript that helped
+students build practical skills while learning core programming concepts.
 
 ## Software Engineer, TalentSpring, 2006-2008
 
-I was the first engineer at TalentSpring where I built a highly scalable
-web-based recruiting/resume service using Ruby on Rails and AJAX (cutting edge
-at the time!). I coordinated several contract developers, two graphic designers,
-and a copywriter through several major revisions. I also made purchasing
-recommendations.
+As the first engineer at TalentSpring, I built a scalable recruiting platform
+from the ground up using Ruby on Rails. I:
 
-Some of my accomplishments include:
-
-- I put in place a rapid development and release process that enables
-  high-quality and timely deployment of new features and bug fixes.
-
-- I developed and implemented key, "first-in-class" search functionality leading
-  to highly streamlined user experience with very positive user feedback.
-
-- I researched and implemented all aspects of custom email delivery with key
-  goals being high delivery rates and customer satisfaction.
+- Architected and implemented a sophisticated resume parsing and search system
+  that significantly improved recruiter workflow
+- Built a custom email delivery system optimized for high deliverability rates
+- Led a distributed team of contractors (including engineers, copywriters, and
+  graphic designers) through multiple major platform iterations
+- Established rapid development and deployment processes that enabled quick
+  feature rollouts while maintaining quality
+- Early implementer of DKIM, prior to standardization
 
 ## Microsoft Research, Intern, 2005
 
-I invented new digital painting tools by leveraging and extending texture
-synthesis methods. These tools empower artists by giving them an easy method to
-extend their palette of virtual paints and effects.
+I invented novel digital painting tools that extended existing texture
+synthesis methods, giving artists new ways to create and manipulate digital
+artwork.
 
 ## University of Washington, 2003-2006
 
 ### Research Assistant
 
-I pioneered new computational tools for artists and visual analytics including
-"texture painting" tools and a system for generating cutaway visualizations of
-complex thee-dimensional objects.
+I created new computational tools for artists and technical illustrators,
+including:
+
+- An interactive texture painting system that introduced new ways for artists to
+  work with digital textures
+- A system for generating interactive cutaway visualizations of complex 3D
+  models
+- Tools that bridged traditional illustration techniques with modern
+  computational methods
 
 ### Lead Teaching Assistent
 
-I lectured and consulted on curricula for courses in Introductory Computer
-Science, Programming Languages, and Software Engineering. I also served as a
-teaching lead, coordinating up to 10 other TAs.
+Beyond teaching core computer science concepts, I:
 
+- Coordinated teams of up to 10 teaching assistants
+- Developed and delivered lectures for courses in Introductory Computer Science,
+  Programming Languages, and Software Engineering
+- Helped shape curriculum to better serve student needs
 
 ## Contract and Pro Bono
 
 ### Blist/Socrata
 
-I developed the backend framework for modeling databases. This allowed users to
-create their own database schemas using the frontend application. Later, Blist
-would become Socrata, pivoting to become a powerful tool for integrating open
-data.
+I developed the foundational database modeling framework that allowed users to
+create custom database schemas through a web interface. This work helped lay the
+groundwork for Socrata's evolution into a powerful open data integration
+platform.
 
 ### FrontSeat/Walk Score
 
-With a small group of volunteer developers I wrote the early iPhone app "Walk
-Score". This app helped promote neighborhood "walkability" by scoring a user's
-location based on proximity of various amenities. The app itself integrated
-location and mapping services, native and remote Walk Score calculation, and
-several other web services. While the app is no loger available, [Walk Score now
-lives on the web](walkscore.com)
+As part of a volunteer development team, I created one of the first iPhone apps
+to promote neighborhood walkability. The app combined location services,
+mapping, and custom scoring algorithms to help users understand and improve
+their community's walking access to amenities. While the app is no loger
+available, [Walk Score now lives on the web](walkscore.com)
 
 ### LearnVC
 
-I built a first-of-its-kind tool to help start-up founders, employees, and
-investors model and manage venture-backed investements. Using Java and the
-Google Web Toolkit, I helped create the frontend and backend of a highly
-responsive web application presenting highly complex financial transactions in
-an intuitive manner.
+I helped build a pioneering web application for modeling venture capital
+investments. Using Java and Google Web Toolkit, I created an intuitive interface
+for managing complex financial transactions, making venture capital more
+accessible to founders and investors.
 
 # Education
 
 - Master Science in Computer Science and Engineering, University of Washington, 2006
+  - Research focus on computational tools for artists and visual analytics
+  - Developed novel approaches to texture synthesis and technical illustration
+
 - Bachelor of Arts in Computer Science with High Honors, Oberlin College, 2003
 
 # Publications and Talks
 
 ## Interactive Cutaway Illustrations
 
-A system for authoring and viewing interactive cutaway illustrations of complex 3D models using conventions of traditional scientific and technical illustration.
+A novel system for creating and viewing interactive technical illustrations of
+complex 3D models using traditional scientific illustration conventions. This
+work introduced new computational methods for generating cutaway views while
+preserving important contextual information.
 
 <blockqoute>
   <a href="http://vis.berkeley.edu/papers/cutaways/">Interactive Cutaway Illustrations of Complex 3D Models</a>
@@ -138,8 +176,9 @@ A system for authoring and viewing interactive cutaway illustrations of complex 
 
 ## Painting with Texture
 
-An interactive texture painting system that allows the user to author digital
-images by painting with a palette of input textures.
+An interactive system that reimagines digital painting by allowing artists to
+paint with texture palettes. This work bridged traditional artistic techniques
+with computational texture synthesis.
 
 <blockqoute>
   <a href="http://grail.cs.washington.edu/projects/painting-with-texture/">Painting with Texture</a>
@@ -151,7 +190,7 @@ images by painting with a palette of input textures.
 
 ## Driving Data Democracy @ Animoto, Looker Meetup, 2015
 
-A presentation about how we built a culture of using data to make informed
-decisions at Animoto.
+A presentation on building a data-driven culture at Animoto, focusing on how we
+made data accessible and actionable across the organization.
 
 [Driving Data Democracy @ Animoto](https://www.youtube.com/watch?v=WG4S8ZjPliQ)
