@@ -7,7 +7,7 @@ Title: Some things I have worked on...
 # Projects
 
 <aside class="page-meta">
-  <span class="kicker">40° 41′ N · 73° 59′ W</span>
+  <span class="kicker">Brooklyn, NY</span>
   <dl>
     <dt>Subtitle</dt><dd>Side projects</dd>
     <dt>Updated</dt><dd>May 2026</dd>

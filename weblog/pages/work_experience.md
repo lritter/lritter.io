@@ -7,7 +7,7 @@ Title: My Work Experience
 # Work Experience
 
 <aside class="page-meta">
-  <span class="kicker">40° 41′ N · 73° 59′ W</span>
+  <span class="kicker">Brooklyn, NY</span>
   <dl>
     <dt>Subtitle</dt><dd>20+ years</dd>
     <dt>Updated</dt><dd>May 2026</dd>

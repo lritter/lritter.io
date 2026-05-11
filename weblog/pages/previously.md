@@ -7,7 +7,7 @@ Title: Previously on...
 # Previously
 
 <aside class="page-meta">
-  <span class="kicker">40° 41′ N · 73° 59′ W</span>
+  <span class="kicker">40° 39′ N · 73° 56′ W</span>
   <dl>
     <dt>Subtitle</dt><dd>Archive</dd>
     <dt>Updated</dt><dd>May 2026</dd>
