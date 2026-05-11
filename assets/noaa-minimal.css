@@ -970,3 +970,194 @@ footer .rev-stamp span:last-child {
     text-align: left;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   Profile-system pages (omg.lol profile renderer)
+   ───────────────────────────────────────────────────────────────────
+   Profile pages use <main class="h-card"> as the root, with no
+   <header>, no <article>, no outer <footer>, no <h1>. Lists use
+   <ul class="fa-ul"> with <span class="fa-li"> icon prefixes.
+   These rules adapt the chart aesthetic to that markup.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* main.h-card is the profile-page equivalent of .container */
+main.h-card {
+  display: block;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 36px 44px 56px;
+  position: relative;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+main.h-card::before,
+main.h-card::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+main.h-card::before {
+  inset: 18px 14px;
+  border: var(--rule-thin) solid var(--ink);
+}
+
+main.h-card::after {
+  inset: 22px 18px;
+  border: var(--rule-hair) solid var(--ink);
+}
+
+main.h-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Bio block (profile pages have this; omitted on now content) */
+main.h-card .p-note {
+  margin: 0 0 24px;
+}
+
+main.h-card .p-note > p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+  text-wrap: pretty;
+  max-width: var(--measure);
+  margin: 0 0 18px;
+}
+
+/* h3 — section heads on the landing/now page ("What I'm reading", etc.) */
+main.h-card h3 {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 32px 0 12px;
+  padding: 0 0 4px;
+  border-bottom: var(--rule-hair) solid var(--ink-hair);
+}
+
+/* Profile pages have body paragraphs */
+main.h-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+  color: var(--ink-2);
+  text-wrap: pretty;
+  max-width: var(--measure);
+}
+
+/* fa-ul list — uses FontAwesome icons via .fa-li instead of our ink ticks */
+main.h-card ul.fa-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  max-width: var(--measure);
+}
+
+main.h-card ul.fa-ul > li {
+  position: relative;
+  padding: 8px 0 8px 28px;
+  border-bottom: var(--rule-hair) dotted var(--ink-hair);
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+main.h-card ul.fa-ul > li:last-child {
+  border-bottom: 0;
+}
+
+/* Suppress the global ink-tick bullet that would otherwise apply */
+main.h-card ul.fa-ul > li::before {
+  display: none;
+}
+
+/* The FontAwesome icon prefix */
+main.h-card .fa-li {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 16px;
+  text-align: center;
+  color: var(--ink-3);
+  font-size: 12px;
+}
+
+main.h-card .fa-li i {
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Profile-items list — same visual treatment as the weblog's profile items */
+main.h-card #profile-items {
+  margin-top: 28px;
+  padding-top: 14px;
+  border-top: var(--rule-hair) solid var(--ink-hair);
+}
+
+main.h-card #profile-items::before {
+  content: "PROFILE ITEMS";
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  color: var(--ink-3);
+  margin-bottom: 6px;
+}
+
+main.h-card #profile-items ul {
+  margin: 0;
+}
+
+/* The trailing "Last updated" paragraph on the landing/now page */
+main.h-card > p:last-of-type:has(i.fa-clock),
+main.h-card > p:has(> i.fa-clock) {
+  margin-top: 48px;
+  padding-top: 14px;
+  border-top: var(--rule-hair) solid var(--ink-hair);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  color: var(--ink-3);
+  max-width: none;
+}
+
+/* Hide the empty <div id="footer"></div> that omg.lol injects */
+main.h-card #footer:empty {
+  display: none;
+}
+
+/* Responsive: collapse padding and frame on narrow widths */
+@media (max-width: 720px) {
+  main.h-card {
+    padding: 28px 36px 48px;
+  }
+  main.h-card::before { inset: 14px 10px; }
+  main.h-card::after  { inset: 18px 14px; }
+}
+
+@media (max-width: 540px) {
+  main.h-card {
+    padding: 22px 26px 40px;
+  }
+  main.h-card::before { inset: 10px 6px; }
+  main.h-card::after  { inset: 14px 10px; }
+}
+
+/* Print: drop the frame */
+@media print {
+  main.h-card {
+    max-width: none;
+    padding: 0;
+  }
+  main.h-card::before,
+  main.h-card::after {
+    display: none;
+  }
+}
