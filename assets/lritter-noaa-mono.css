@@ -97,7 +97,7 @@ main::before {
   content: "";
   position: absolute;
   inset: 18px 14px;
-  border: var(--rule-hair) solid var(--ink-hair);
+  border: var(--rule-thin) solid var(--ink-hair);
   pointer-events: none;
   z-index: 0;
 }
@@ -106,6 +106,12 @@ main::before {
 main > * {
   position: relative;
   z-index: 1;
+}
+
+#content::after,
+.content::after,
+main::after {
+  border: var(--rule-hair) solid var(--ink-hair);
 }
 
 /* ── Selection ───────────────────────────────────────────────────── */

@@ -4,6 +4,16 @@ Location: /projects
 Title: Some things I have worked on...
 ---
 
+# Projects
+
+<aside class="page-meta">
+  <span class="kicker">40° 41′ N · 73° 59′ W</span>
+  <dl>
+    <dt>Subtitle</dt><dd>Side projects</dd>
+    <dt>Updated</dt><dd>May 2026</dd>
+  </dl>
+</aside>
+
 ## Dotfiles
 
 I host all my [dotfiles on github](https://github.com/lritter/dotfiles). Some of

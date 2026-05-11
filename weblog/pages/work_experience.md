@@ -6,6 +6,15 @@ Title: My Work Experience
 
 # Work Experience
 
+<aside class="page-meta">
+  <span class="kicker">40° 41′ N · 73° 59′ W</span>
+  <dl>
+    <dt>Subtitle</dt><dd>20+ years</dd>
+    <dt>Updated</dt><dd>May 2026</dd>
+    <dt>Status</dt><dd>Building</dd>
+  </dl>
+</aside>
+
 I thrive on building useful tools that solve real problems, discovering creative
 solutions, and embracing continuous learning. With an MS in Computer Science and
 over 20 years of experience, I've had the opportunity to work on everything from

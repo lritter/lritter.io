@@ -1,0 +1,972 @@
+:root {
+  /* Surfaces */
+  --paper: #f6f1e4;
+  --paper-edge: #ebe5d2;
+  --paper-soft: #f1ebdb;
+
+  /* Ink — four weights */
+  --ink: #0c0c0c;
+  --ink-2: #3a3a3a;
+  --ink-3: #8a8a8a;
+  --ink-hair: #c2bcac;
+
+  /* The one chroma */
+  --magenta: #c8147e;
+  --magenta-tint: #f0d0e0;
+  --magenta-faint: #f8e6ef;
+
+  /* Type */
+  --font-roman: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-mono: "IBM Plex Mono", "Menlo", "Consolas", ui-monospace, monospace;
+  --font-serif: "Tinos", "Times New Roman", "Liberation Serif", serif;
+
+  /* Rhythm */
+  --measure: 64ch;
+  --gutter: clamp(20px, 5vw, 56px);
+
+  /* Tracking */
+  --track-wide: 0.14em;
+  --track-mid: 0.04em;
+  --track-tight: -0.005em;
+
+  /* Rules */
+  --rule-hair: 0.5px;
+  --rule-thin: 1px;
+  --rule-med: 1.5px;
+  --rule-thick: 2.5px;
+}
+
+/* ── Page substrate ──────────────────────────────────────────────── */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-roman);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Ruled-paper hatch — a 2px diagonal at very low contrast.
+   It reads as substrate, not ornament. */
+body {
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 6px,
+    rgba(12, 12, 12, 0.018) 6px,
+    rgba(12, 12, 12, 0.018) 7px
+  );
+  min-height: 100vh;
+}
+
+/* ── Container & neatline ───────────────────────────────────────── */
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 36px 44px 56px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Outer 1px frame */
+.container::before {
+  inset: 18px 14px;
+  border: var(--rule-thin) solid var(--ink);
+}
+
+/* Inner 0.5px hairline frame, 4px inside the outer */
+.container::after {
+  inset: 22px 18px;
+  border: var(--rule-hair) solid var(--ink);
+}
+
+/* Make sure content sits above the neatline pseudo-elements */
+.container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Global header (brand line) ─────────────────────────────────── */
+
+header {
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: var(--rule-hair) solid var(--ink-hair);
+}
+
+header h1.weblog-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 12px;
+}
+
+header h1.weblog-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1.weblog-title a:hover {
+  color: var(--magenta);
+}
+
+/* ── Cartouche (article first h1 + page-meta) ───────────────────── */
+
+/* Default h1 styling (no page-meta sibling): simple title with rule below */
+article > h1:first-of-type,
+#content > h1:first-of-type {
+  font-family: var(--font-roman);
+  font-weight: 700;
+  font-size: clamp(38px, 5.6vw, 56px);
+  line-height: 0.98;
+  letter-spacing: var(--track-tight);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 14px;
+  border-bottom: var(--rule-med) solid var(--ink);
+  color: var(--ink);
+  max-width: none;
+}
+
+article > h1:first-of-type a,
+#content > h1:first-of-type a {
+  color: inherit;
+  text-decoration: none;
+  border: 0;
+  background: none;
+}
+
+/* When the article (or #content) has a page-meta sibling of the h1,
+   the whole title block becomes a 2-column grid:
+     row 1: kicker (col 1) | dl (col 2, spans both rows)
+     row 2: h1 (col 1)     |
+   Everything else in the article spans both columns. */
+article:has(> h1:first-of-type + aside.page-meta),
+#content:has(> h1:first-of-type + aside.page-meta) {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 0;
+  align-items: end;
+}
+
+/* Page-meta itself is layout-transparent — its children become grid items
+   of the article. */
+article > aside.page-meta,
+#content > aside.page-meta {
+  display: contents;
+}
+
+/* In cartouche mode, h1 goes in row 2 / col 1, and gets the rule below
+   (so the rule spans the entire title block at row 2's bottom). */
+article:has(> aside.page-meta) > h1:first-of-type,
+#content:has(> aside.page-meta) > h1:first-of-type {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 0 32px 14px 0;
+  border-bottom: var(--rule-med) solid var(--ink);
+  margin-bottom: 28px;
+}
+
+/* Kicker sits in row 1 / col 1 (above the h1). */
+aside.page-meta .kicker {
+  display: block;
+  grid-column: 1;
+  grid-row: 1;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 6px;
+  align-self: end;
+}
+
+/* Dl spans both rows on the right, bottom-aligned with the h1. */
+aside.page-meta dl {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  margin: 0 0 28px;
+  padding-bottom: 14px;
+  border-bottom: var(--rule-med) solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: var(--track-mid);
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-align: right;
+  line-height: 1.6;
+  align-self: end;
+}
+
+aside.page-meta dt {
+  display: inline;
+  font-weight: 700;
+  color: var(--ink);
+  margin-right: 6px;
+}
+
+aside.page-meta dt::after {
+  content: "";
+}
+
+aside.page-meta dd {
+  display: inline;
+  margin: 0;
+}
+
+aside.page-meta dd::after {
+  content: "\A";
+  white-space: pre;
+}
+
+/* All other article children (paragraphs, lists, sections, etc.) span both
+   columns of the cartouche grid so layout below the title block is normal. */
+article:has(> aside.page-meta) > *:not(h1:first-of-type):not(aside.page-meta),
+#content:has(> aside.page-meta) > *:not(h1:first-of-type):not(aside.page-meta) {
+  grid-column: 1 / -1;
+}
+
+/* ── Navigation tags ────────────────────────────────────────────── */
+
+nav#weblog-navigation {
+  margin: 0;
+}
+
+nav#weblog-navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav#weblog-navigation li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+nav#weblog-navigation li::before {
+  display: none;
+}
+
+nav#weblog-navigation a {
+  display: inline-block;
+  padding: 4px 10px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border: var(--rule-thin) solid var(--ink);
+  background: var(--paper);
+  transition: background 80ms linear, color 80ms linear;
+}
+
+nav#weblog-navigation a:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+nav#weblog-navigation a:focus-visible {
+  outline: var(--rule-med) solid var(--magenta);
+  outline-offset: 2px;
+}
+
+/* ── Typography ─────────────────────────────────────────────────── */
+
+/* Section counter resets per article */
+article,
+#content {
+  counter-reset: section;
+}
+
+/* h2 — section heading: § NN + uppercase title + flex-grow rule to right edge */
+article h2,
+#content h2 {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 56px 0 16px;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  counter-increment: section;
+}
+
+article h2::before,
+#content h2::before {
+  content: "§ " counter(section, decimal-leading-zero);
+  color: var(--magenta);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: var(--track-wide);
+  flex: 0 0 auto;
+}
+
+/* Trailing horizontal rule that fills from the title text to the right edge */
+article h2::after,
+#content h2::after {
+  content: "";
+  flex: 1 1 auto;
+  height: var(--rule-thin);
+  background: var(--ink);
+  align-self: center;
+}
+
+/* Suppress counter for the now-block's h2s — they're not document sections */
+.now-block {
+  counter-reset: section;
+}
+
+.now-block h2 {
+  border-top: 0;
+  margin: 16px 0 6px;
+  padding: 0;
+}
+
+.now-block h2::before {
+  content: none;
+}
+
+/* h3 — sub-section with hairline rule */
+article h3,
+#content h3 {
+  font-family: var(--font-roman);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: var(--track-tight);
+  color: var(--ink);
+  margin: 36px 0 10px;
+  padding: 0 0 4px;
+  border-bottom: var(--rule-hair) solid var(--ink-hair);
+}
+
+/* h4 — italic serif aside */
+article h4,
+#content h4 {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--ink-2);
+  margin: 22px 0 8px;
+  letter-spacing: 0;
+}
+
+article h4::before {
+  content: "— ";
+  color: var(--ink-3);
+}
+
+/* h5, h6 */
+article h5, article h6,
+#content h5, #content h6 {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: var(--track-wide);
+  color: var(--ink-2);
+  margin: 18px 0 6px;
+}
+
+/* Body */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+  color: var(--ink-2);
+  text-wrap: pretty;
+  max-width: var(--measure);
+}
+
+strong, b {
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: var(--track-mid);
+}
+
+em, i {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--ink);
+}
+
+/* Links — magenta is the only chroma */
+a {
+  color: var(--magenta);
+  text-decoration: none;
+  border-bottom: var(--rule-thin) solid var(--magenta-tint);
+  padding-bottom: 0.5px;
+  transition: background 80ms linear, border-color 80ms linear;
+}
+
+a:hover {
+  background: var(--magenta-faint);
+  border-bottom-color: var(--magenta);
+}
+
+a:visited {
+  color: #8a1a5a;
+  border-bottom-color: rgba(138, 26, 90, 0.28);
+}
+
+a:focus-visible {
+  outline: var(--rule-med) solid var(--magenta);
+  outline-offset: 2px;
+  background: var(--magenta-faint);
+}
+
+/* Heading links inherit heading color — no magenta */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  border-bottom: 0;
+  background: none;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+  color: var(--magenta);
+  background: none;
+}
+
+/* ── Heading permalinks (omg.lol auto-injects these) ────────────── */
+/* Anchors stay in the DOM for fragment links, but render no visible
+   footprint and contribute nothing to flex/inline layout. */
+
+h1 > a.heading-permalink,
+h2 > a.heading-permalink,
+h3 > a.heading-permalink,
+h4 > a.heading-permalink,
+h5 > a.heading-permalink,
+h6 > a.heading-permalink {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  color: transparent;
+  background: none;
+  text-decoration: none;
+}
+
+/* ── Lists ──────────────────────────────────────────────────────── */
+
+article ul, article ol,
+#content ul, #content ol {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  max-width: var(--measure);
+}
+
+article li, #content li {
+  position: relative;
+  padding: 8px 0 8px 22px;
+  border-bottom: var(--rule-hair) dotted var(--ink-hair);
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+article li:last-child,
+#content li:last-child {
+  border-bottom: 0;
+}
+
+/* Ink tick instead of bullet */
+article ul > li::before,
+#content ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 10px;
+  height: var(--rule-thin);
+  background: var(--ink);
+}
+
+/* Numbered list — leading-zero mono counter */
+article ol,
+#content ol {
+  counter-reset: ol;
+}
+
+article ol > li::before,
+#content ol > li::before {
+  counter-increment: ol;
+  content: counter(ol, decimal-leading-zero);
+  width: auto;
+  height: auto;
+  background: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-3);
+  letter-spacing: var(--track-mid);
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+article ol > li,
+#content ol > li {
+  padding-left: 36px;
+}
+
+/* ── Tables (sounding-table look) ───────────────────────────────── */
+
+article table,
+#content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 18px 0 24px;
+  border-top: var(--rule-med) solid var(--ink);
+  border-bottom: var(--rule-med) solid var(--ink);
+}
+
+article th,
+#content th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  font-weight: 700;
+  padding: 8px 12px;
+  border-bottom: var(--rule-thin) solid var(--ink);
+  color: var(--ink);
+}
+
+article td,
+#content td {
+  padding: 7px 12px;
+  border-bottom: var(--rule-hair) dotted var(--ink-hair);
+  color: var(--ink-2);
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+article tr:last-child td,
+#content tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Mono date cell */
+article td.mono,
+#content td.mono {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-2);
+  letter-spacing: var(--track-mid);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Note-row: commentary that visually attaches to the entry above */
+article tr.note-row td,
+#content tr.note-row td {
+  border-bottom: var(--rule-hair) dotted var(--ink-hair);
+  padding-top: 0;
+}
+
+article td.note,
+#content td.note {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--ink-2);
+  padding-top: 0;
+  padding-bottom: 12px;
+}
+
+/* The row above a note-row should not have a bottom rule
+   (the note visually attaches to its entry) */
+article tr:has(+ tr.note-row) td,
+#content tr:has(+ tr.note-row) td {
+  border-bottom: 0;
+  padding-bottom: 2px;
+}
+
+/* ── Now-block (caution block) ──────────────────────────────────── */
+
+.now-block {
+  border: var(--rule-med) solid var(--magenta);
+  padding: 16px 22px;
+  background: var(--magenta-faint);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 32px;
+}
+
+.now-block > *:first-child {
+  margin-top: 0;
+}
+
+.now-block > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Tighten lists inside the now-block — they shouldn't have hairline rules */
+.now-block li {
+  padding: 4px 0 4px 22px;
+  border-bottom: 0;
+}
+
+.now-block li::before {
+  top: 13px;
+  background: var(--magenta);
+}
+
+/* Optional kicker inside now-block */
+.now-block .label {
+  display: block;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--magenta);
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+/* ── Blockquote ─────────────────────────────────────────────────── */
+
+blockquote {
+  margin: 24px 0;
+  padding: 14px 18px;
+  border-left: var(--rule-thick) solid var(--magenta);
+  background: var(--magenta-faint);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.55;
+  max-width: var(--measure);
+}
+
+blockquote p {
+  margin: 0 0 8px;
+  color: inherit;
+}
+
+blockquote p:last-child {
+  margin: 0;
+}
+
+/* ── Horizontal rule (chart-frame hatch) ────────────────────────── */
+
+hr {
+  border: 0;
+  height: 12px;
+  margin: 40px 0;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--ink) 0,
+    var(--ink) 1px,
+    transparent 1px,
+    transparent 5px
+  );
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: var(--rule-thin) solid var(--ink);
+  border-bottom: var(--rule-thin) solid var(--ink);
+}
+
+/* ── Code, kbd, samp, pre ───────────────────────────────────────── */
+
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  color: var(--ink);
+}
+
+code {
+  background: var(--paper-edge);
+  padding: 1px 5px;
+  border-radius: 0;
+  border: var(--rule-hair) solid var(--ink-hair);
+}
+
+pre {
+  background: var(--paper-edge);
+  border: var(--rule-thin) solid var(--ink-hair);
+  border-left: var(--rule-thick) solid var(--ink);
+  padding: 14px 16px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 18px 0;
+}
+
+pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+/* ── Images in body ─────────────────────────────────────────────── */
+
+img:not(.profile-picture) {
+  max-width: 100%;
+  height: auto;
+  border: var(--rule-thin) solid var(--ink);
+  padding: 4px;
+  background: var(--paper);
+  display: block;
+  margin: 18px 0;
+}
+
+/* ── Profile picture ────────────────────────────────────────────── */
+
+img.profile-picture {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 0;
+  border: var(--rule-thin) solid var(--ink);
+  padding: 4px;
+  background: var(--paper);
+  margin: 0 0 24px;
+  filter: grayscale(1) contrast(1.05);
+}
+
+/* ── Metadata rows (omg.lol profile fields) ─────────────────────── */
+
+.metadata {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-2);
+  letter-spacing: var(--track-mid);
+  margin: 0 0 6px;
+  padding: 0;
+}
+
+.metadata::before {
+  content: attr(id);
+  flex: 0 0 88px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  color: var(--ink-3);
+}
+
+.metadata#pronouns::before   { content: "PRONOUNS"; }
+.metadata#occupation::before { content: "OCCUPATION"; }
+.metadata#location::before   { content: "LOCATION"; }
+.metadata#email::before      { content: "EMAIL"; }
+.metadata#website::before    { content: "WEBSITE"; }
+
+/* Metadata group is set off by a hairline above and below */
+.metadata:first-of-type {
+  margin-top: 18px;
+  padding-top: 10px;
+  border-top: var(--rule-hair) solid var(--ink-hair);
+}
+
+.metadata:last-of-type {
+  padding-bottom: 12px;
+  border-bottom: var(--rule-hair) solid var(--ink-hair);
+  margin-bottom: 28px;
+}
+
+/* ── Profile-items list (the trailing <ul> in #content) ─────────── */
+
+#content > ul:last-of-type {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: var(--rule-hair) solid var(--ink-hair);
+  position: relative;
+}
+
+#content > ul:last-of-type::before {
+  content: "PROFILE ITEMS";
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: var(--track-wide);
+  color: var(--ink-3);
+  margin-bottom: 6px;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+
+footer {
+  margin-top: 72px;
+  padding-top: 14px;
+  border-top: var(--rule-thin) solid var(--ink);
+}
+
+footer .rev-stamp {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+footer .rev-stamp span {
+  flex: 0 0 auto;
+}
+
+footer .rev-stamp span:nth-child(2) {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+footer .rev-stamp span:last-child {
+  text-align: right;
+}
+
+/* ── Print ──────────────────────────────────────────────────────── */
+
+@media print {
+  html, body {
+    background: #fff;
+    color: #000;
+    background-image: none;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+
+  .container::before,
+  .container::after {
+    display: none;
+  }
+
+  a, a:visited {
+    color: #000;
+    text-decoration: underline;
+    border: 0;
+    background: none;
+  }
+
+  blockquote {
+    border-left-color: #000;
+    background: #f4f4f4;
+  }
+
+  .now-block {
+    border-color: #000;
+    background: #f4f4f4;
+  }
+
+  hr {
+    background-image: none;
+  }
+
+  nav#weblog-navigation a {
+    border-color: #000;
+  }
+}
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+
+@media (max-width: 720px) {
+  .container {
+    padding: 28px 36px 48px;
+  }
+
+  .container::before { inset: 14px 10px; }
+  .container::after  { inset: 18px 14px; }
+
+  article > h1:first-of-type + aside.page-meta {
+    display: block;
+    margin-top: 0;
+  }
+
+  aside.page-meta dl {
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  aside.page-meta dl,
+  aside.page-meta .kicker {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 22px 26px 40px;
+  }
+
+  .container::before { inset: 10px 6px; }
+  .container::after  { inset: 14px 10px; }
+
+  article > h1:first-of-type,
+  #content > h1:first-of-type {
+    font-size: 34px;
+  }
+
+  article h2,
+  #content h2 {
+    font-size: 12px;
+  }
+
+  article h3,
+  #content h3 {
+    font-size: 17px;
+  }
+
+  .metadata {
+    padding-left: 0;
+  }
+
+  .metadata::before {
+    position: static;
+    display: inline-block;
+    margin-right: 8px;
+    width: auto;
+  }
+
+  footer .rev-stamp {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  footer .rev-stamp span:nth-child(2),
+  footer .rev-stamp span:last-child {
+    text-align: left;
+  }
+}
