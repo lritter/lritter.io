@@ -21,6 +21,35 @@ over 20 years of experience, I've had the opportunity to work on everything from
 crisis management platforms to video creation tools to computational art
 systems.
 
+## CTO, SupplyTrace, 2025–present
+
+As CTO of SupplyTrace — a nonprofit building open-access supply chain transparency
+infrastructure — I lead engineering, product, and AI strategy in service of a
+concrete mission: making worker vulnerability and worker-rights risk visible
+enough that the people making sourcing decisions actually have to reckon with it.
+I came on to turn a research effort into real infrastructure, and I've stayed
+hands-on across the stack while shaping where the platform goes.
+
+- Architected a data platform that ingests and reconciles dozens of disparate
+  sources (trade records, corporate registries, sanctions lists, labor-rights
+  indices) into a queryable risk graph, built on BigQuery, Apache Beam/Dataflow,
+  and Elasticsearch on GCP
+- Built an entity-resolution system that matches messy corporate names across 10M+
+  entities using fine-tuned sentence-transformer models — the hard problem
+  underneath any supply chain that spans languages, jurisdictions, and decades of
+  name changes
+- Drove the org's adoption of AI tooling end to end, from engineering workflows to
+  a roadmap for agentic systems that recursively trace supplier networks and
+  synthesize risk signals at each node, with explainability built in for compliance use
+- Designed and shipped a commercial API and tiered product layer to build
+  earned-revenue runway alongside the open mission, in a sector where philanthropic
+  funding is contracting
+- Developed composite risk modeling that blends labor-rights, climate-exposure, and
+  other signals into per-region vulnerability scores for partner organizations
+- Set technical direction, hiring priorities, and engineering practice for a small
+  team, balancing near-term delivery against the long-term bet that open
+  infrastructure shifts how supply chains get held accountable
+
 ## Principal Engineer, FireHydrant, 2019-2024
 
 As the second engineer at FireHydrant, I helped build a platform that has become
