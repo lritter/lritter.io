@@ -3,6 +3,8 @@ Title: Remembering Glen
 Date: 2026-07-29
 ---
 
+# Remembering Glen
+
 Glen Hansard died last night, on a motorbike in Dublin. He was fifty-six. I hadn't
 spoken to him in at least twenty years. He probably didn't remember me.
 
