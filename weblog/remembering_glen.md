@@ -10,7 +10,7 @@ spoken to him in at least twenty years. He probably didn't remember me.
 
 In the summer of 2002 he and I stole a moped together on a street in Vienna.
 
-In June of 2002 I was twenty-one and working as a gopher on a Frames tour through
+I was twenty-one and working as a gopher on a Frames tour through
 Austria and the Czech Republic. My brother Josh was opening. I was going to shoot
 a bunch of Super 8 — maybe do something with it for film class. My real job was
 to get things for people. Beers, mostly, but whatever somebody needed and didn't
@@ -20,16 +20,15 @@ That van. One night, crossing into Slovakia, it was so hot with all of us parked
 in there that sweaty condensation dripped off the ceiling onto us. Glen wasn't
 riding with us. Markéta was around that summer and he'd turn up late, or travel
 separately. I didn't really know what was going on, and it was his band. But people
-grumbled.
+grumbled - Glen was gonna be Glen.
 
 One night they played the observatory in Brno. Soundcheck was rushed — there'd been
-another gig in town that day — and as far as I could tell it was just another show,
-everybody from sound to lights making it happen the way they always did. Up until
-the middle of the set, that's what it was. Then, at one of those signature giant
-choruses, the stars came on and the sky started to spin around us. I was in one of
-those reclining observatory chairs with the whole thing turning over me. Say what
-you will about that band — the swell, the earnestness, all of it. It was the most
-memorable show I've ever been to.
+another gig in town that day — and as far as I could tell it was just another show.
+Up until the middle of the set, that's what it was. Then, at one of those signature
+giant choruses, the stars came on and the sky started to spin around us. I was in
+one of those reclining observatory chairs with the whole thing turning over me. Say
+what you will about that band — the swell, the earnestness, all of it. It was the
+most memorable show I've ever been to.
 
 At another show, again in the middle of a big chorus, Glen broke a string down by
 the bridge. I was standing right there, ready to do my job and bring him a fresh
@@ -64,9 +63,8 @@ That footage is in a shoebox in my dad's basement in Minnesota. I hope.
 ---
 
 When I got home and back to school, I started a band. After college I started another
-one. Then, in New York, another. Some of the best friends were in these bands.
-Through The Hip Abduction, Lady Drama, Tiny Buddha and the rest of them, I have
-never once clipped my strings.
+one. Then, in New York, another. Some of my best friends were in these bands.
+And I have never once clipped my strings.
 
 I'll never have the skill Glen had. But I remember that nothing could stop him playing.
 
