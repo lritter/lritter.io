@@ -64,8 +64,9 @@ That footage is in a shoebox in my dad's basement in Minnesota. I hope.
 ---
 
 When I got home and back to school, I started a band. After college I started another
-one. Then, in New York, another. Through The Hip Abduction, Lady Drama, Tiny Buddha
-and the rest of them, I have never once clipped my strings.
+one. Then, in New York, another. Some of the best friends were in these bands.
+Through The Hip Abduction, Lady Drama, Tiny Buddha and the rest of them, I have
+never once clipped my strings.
 
 I'll never have the skill Glen had. But I remember that nothing could stop him playing.
 
