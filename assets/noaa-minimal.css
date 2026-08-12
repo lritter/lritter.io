@@ -21,7 +21,7 @@
   --font-serif: "Tinos", "Times New Roman", "Liberation Serif", serif;
 
   /* Rhythm */
-  --measure: 64ch;
+  --measure: 80ch;
   --gutter: clamp(20px, 5vw, 56px);
 
   /* Tracking */
@@ -34,6 +34,7 @@
   --rule-thin: 1px;
   --rule-med: 1.5px;
   --rule-thick: 2.5px;
+  --hashed-rule-height: 12px;
 }
 
 /* ── Page substrate ──────────────────────────────────────────────── */
@@ -315,18 +316,16 @@ article h2,
   padding: 0;
   border: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
   counter-increment: section;
 }
 
 article h2::before,
 #content h2::before {
-  content: "§ " counter(section, decimal-leading-zero);
+  content: "§" counter(section, decimal-leading-zero);
   color: var(--magenta);
   font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: 11px;
   letter-spacing: var(--track-wide);
   flex: 0 0 auto;
 }
@@ -511,7 +510,6 @@ article li,
 #content li {
   position: relative;
   padding: 8px 0 8px 22px;
-  border-bottom: var(--rule-hair) dotted var(--ink-hair);
   color: var(--ink-2);
   line-height: 1.5;
 }
@@ -706,7 +704,7 @@ blockquote p:last-child {
 
 hr {
   border: 0;
-  height: 12px;
+  height: var(--hashed-rule-height);
   margin: 24px 0;
   background-image: repeating-linear-gradient(
     135deg,
@@ -715,7 +713,7 @@ hr {
     transparent 1px,
     transparent 5px
   );
-  background-size: 100% 8px;
+  background-size: 100% calc(var(--hashed-rule-height) - 2px);
   background-repeat: no-repeat;
   background-position: center;
   border-top: var(--rule-thin) solid var(--ink);
