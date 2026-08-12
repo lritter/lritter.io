@@ -197,14 +197,14 @@ accessible to founders and investors.
 
 # Publications and Talks
 
-## Introducing Supply Trace @ Tech Against Trafficking Summit, 2025
+### Introducing Supply Trace @ Tech Against Trafficking Summit, 2025
 
 An introduction to Supply Trace as open-access infrastructure for supply-chain
 risk — making the case for a shared data commons over siloed, paywalled sources.
 The talk framed "Tier 0" root-cause risk and the climate–modern slavery nexus,
 and closed with a call to co-design a public utility for risk.
 
-## Interactive Cutaway Illustrations
+### Interactive Cutaway Illustrations
 
 A novel system for creating and viewing interactive technical illustrations of
 complex 3D models using traditional scientific illustration conventions. This
@@ -219,7 +219,7 @@ preserving important contextual information.
   SIGGRAPH 2007, August 2007
 </blockquote>
 
-## Painting with Texture
+### Painting with Texture
 
 An interactive system that reimagines digital painting by allowing artists to
 paint with texture palettes. This work bridged traditional artistic techniques
@@ -233,7 +233,7 @@ with computational texture synthesis.
   17th Eurographics Symposium on Rendering, Nicosa, Cyprus, June 26th-28th, 2006
 </blockquote>
 
-## Driving Data Democracy @ Animoto, Looker Meetup, 2015
+### Driving Data Democracy @ Animoto, Looker Meetup, 2015
 
 A presentation on building a data-driven culture at Animoto, focusing on how we
 made data accessible and actionable across the organization.
