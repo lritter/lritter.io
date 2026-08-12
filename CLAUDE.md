@@ -49,6 +49,12 @@ The Action does three things:
 - `web/` — profile source: `profile.txt` (omg.lol profile content),
   `head.html` (custom `<head>`), `css.css` (custom CSS).
 - `script/` — the two deploy scripts.
+- `media/` — binary assets (project screenshots, etc.). **Not** synced to omg.lol
+  (the weblog importer only handles `.md`; omg.lol has no image-hosting API and
+  its weblog Files feature is text-only). Served straight from GitHub via
+  raw.githack, e.g. `https://raw.githack.com/lritter/lritter.io/main/media/projects/X.png`
+  — the same mechanism as `assets/noaa-minimal.css`. Reference images by that
+  full URL, never a bare `/media/...` path (the weblog has nothing at `/media/`).
 
 ## Gotchas
 

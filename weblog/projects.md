@@ -16,7 +16,7 @@ using macOS Keychain. This helps keep sensitive information out of dotfiles.
 Here are some of my favorite projects from the ancient past.
 
 ### Interactive Cutaway Illustrations
-<img src="/media/projects/wheelneck.png" style="height: 124.8px;"/>
+<img src="https://raw.githack.com/lritter/lritter.io/main/media/projects/wheelneck.png" style="height: 124.8px;"/>
 
 A system for authoring and viewing interactive cutaway illustrations of complex 3D models using conventions of traditional scientific and technical illustration.
 
@@ -29,7 +29,7 @@ A system for authoring and viewing interactive cutaway illustrations of complex 
 </cite>
 
 ### Painting with Texture
-<img src="/media/projects/tree-result-thumbnail.png" style="height: 140.4px;"/>
+<img src="https://raw.githack.com/lritter/lritter.io/main/media/projects/tree-result-thumbnail.png" style="height: 140.4px;"/>
 
 An interactive texture painting system that allows the user to author digital
 images by painting with a palette of input textures.
@@ -45,7 +45,7 @@ images by painting with a palette of input textures.
 
 ### Loud Networks
 
-<img src="/media/projects/loud_networks_screenshot.png" style="height: 171.6px; border:0; padding: 0;"/>
+<img src="https://raw.githack.com/lritter/lritter.io/main/media/projects/loud_networks_screenshot.png" style="height: 171.6px; border:0; padding: 0;"/>
 
 As a class project for CSE 561 (Fall 2005) our team built a full wireless
 network stack using sound as the transmission  medium. We were able to achieve
