@@ -1,24 +1,26 @@
 ### What I’m reading
 
-- [Alien Clay](https://www.panmacmillan.com/authors/adrian-tchaikovsky/alien-clay/9781035013746) by [Adrian Tchaichovsky](https://adriantchaikovsky.com)
+- The Dungeon Crawler Carl series by Matt Dinniman
 
 ### What I’m watching
 
-- Slowly working through Silo, season 2.
+- The new season of Ted Lasso
+- Lots of NYC infrastructure content on YouTube
 
 ### What I’m making
 
-- I'm doing a lot of 3D printing at the moment.
-- Learning Fusion 360 and some basic mechanincal design.
+- Still doing a lot of 3D printing.
+- Learning Fusion 360 and some basic mechanical design.
 - Working every day on learning Spanish.
+- Building Supply Trace!
 
 ### What I’m enjoying
 
-- My new dog, Tony
+- My dog, Tony
+- Summer
 
 ---
 
 [Previously...](https://lritter.io/previously)
 
 {last-updated}
-
