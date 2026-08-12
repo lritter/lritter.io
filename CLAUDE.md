@@ -31,6 +31,10 @@ The Action does three things:
 - Change detection diffs the **whole push range** (`github.event.before..HEAD`),
   so a change in any commit of a multi-commit push is caught. The `DEPLOY=`
   overrides remain as a manual force / redeploy switch.
+- Note: the `DEPLOY=` check is a plain substring match on the commit message,
+  so a message that merely *mentions* `DEPLOY=now` / `DEPLOY=web` (like this
+  paragraph would) will force that deploy. Harmless — deploys are idempotent —
+  but avoid the literal tokens in prose if you don't intend to redeploy.
 
 ## Directory map
 
