@@ -8,14 +8,14 @@ Weblog description: This is a weblog.
 Author: Your Name
 Canonical domain: lritter.io
 Landing page: /
-Landing page template: Landing Page Template
+// Landing page template: Landing Page Template  (removed — use the default template so the homepage gets header/nav/footer)
 
 
 ;; General config stuff
 ;; --------------------
 
 Separator:  ·
-Navigation: <a href="/">Home</a>, <a href="/work_experience">Work</a>, <a href="/about">About</a>
+Navigation: <a href="/">Home</a>, <a href="/work_experience">Work</a>, <a href="/projects">Projects</a>, <a href="/about">About</a>, <a href="/previously">Previously</a>
 
 Files path: /files/
 
