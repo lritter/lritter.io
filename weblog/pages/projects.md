@@ -14,6 +14,15 @@ Title: Some things I have worked on...
   </dl>
 </aside>
 
+## Agent Skills
+
+A collection of my personal [Claude Code](https://claude.com/claude-code) skills,
+published as a [plugin marketplace on GitHub](https://github.com/lritter/agent-skills).
+It bundles independent plugins like `plan-my-day` (a morning routine that reads my
+calendar, PRs, tickets, and email into a single agenda), `handoff` (capture session
+state and replay it into a fresh session), and `advise` (an on-demand reviewer that
+reads the whole session and weighs in before I commit to an approach).
+
 ## Dotfiles
 
 I host all my [dotfiles on github](https://github.com/lritter/dotfiles). Some of
