@@ -20,4 +20,10 @@ jobs:
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: ./script/deploy-now.sh
+      - id: deploy-web-page
+        env:
+          ADDRESS: lritter
+          WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: ./script/deploy-web.sh
         
