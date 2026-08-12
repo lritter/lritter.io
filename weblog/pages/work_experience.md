@@ -197,6 +197,13 @@ accessible to founders and investors.
 
 # Publications and Talks
 
+## Introducing Supply Trace @ Tech Against Trafficking Summit, 2025
+
+An introduction to Supply Trace as open-access infrastructure for supply-chain
+risk — making the case for a shared data commons over siloed, paywalled sources.
+The talk framed "Tier 0" root-cause risk and the climate–modern slavery nexus,
+and closed with a call to co-design a public utility for risk.
+
 ## Interactive Cutaway Illustrations
 
 A novel system for creating and viewing interactive technical illustrations of
