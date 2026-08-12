@@ -8,7 +8,17 @@ CONTENT_FILE=${WEBDIR}/profile.txt
 CSS_FILE=${WEBDIR}/css.css
 HEAD_FILE=${WEBDIR}/head.html
 
-changed_files=$(git diff --name-only HEAD^..HEAD | grep "^${WEBDIR}/")
+# Files changed across the whole push (github.event.before..HEAD), so a change
+# in any commit of a multi-commit push is detected. Falls back to the last
+# commit when there is no usable before-SHA.
+ZERO=0000000000000000000000000000000000000000
+if [[ -n ${BEFORE_SHA} && ${BEFORE_SHA} != "${ZERO}" ]] && git cat-file -e "${BEFORE_SHA}" 2>/dev/null; then
+  range="${BEFORE_SHA}..HEAD"
+else
+  range="HEAD^..HEAD"
+fi
+
+changed_files=$(git diff --name-only ${range} | grep "^${WEBDIR}/")
 
 if [[ ${COMMIT_MESSAGE} =~ DEPLOY=.*web.* ]]; then
   echo "Forcing deploy"

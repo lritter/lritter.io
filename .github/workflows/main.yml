@@ -8,7 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          # Full history so the deploy scripts can diff the whole push range
+          # (github.event.before..HEAD), not just the last commit.
+          fetch-depth: 0
       - id: weblog_import
         uses: neatnik/weblog.lol@v1
         env:
@@ -19,11 +21,13 @@ jobs:
           ADDRESS: lritter
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          BEFORE_SHA: ${{ github.event.before }}
         run: ./script/deploy-now.sh
       - id: deploy-web-page
         env:
           ADDRESS: lritter
           WEBLOG_API_KEY: ${{ secrets.WEBLOG_API_KEY }}
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          BEFORE_SHA: ${{ github.event.before }}
         run: ./script/deploy-web.sh
-        
+
